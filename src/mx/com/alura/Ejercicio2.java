@@ -17,10 +17,10 @@ public class Ejercicio2 {
         clases.add(clase4);
         System.out.println(clases);
         System.out.println("----------for----------");
-        for (int i =0;i < clases.size() ;i++) System.out.println(clases.get(i));
+        for (int i = 0; i < clases.size(); i++) System.out.println(clases.get(i));
         System.out.println("----------foreach----------");
-        for (String clase: clases
-             ) {
+        for (String clase : clases
+        ) {
             System.out.println(clase);
         }
         System.out.println("-----------lamda foreach---------");
