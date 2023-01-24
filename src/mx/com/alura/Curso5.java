@@ -1,5 +1,7 @@
 package mx.com.alura;
 
+import mx.com.alura.module.Curso;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;

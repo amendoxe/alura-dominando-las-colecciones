@@ -1,6 +1,6 @@
 package mx.com.alura.test;
 
-import mx.com.alura.Curso;
+import mx.com.alura.module.Curso;
 
 import java.util.ArrayList;
 

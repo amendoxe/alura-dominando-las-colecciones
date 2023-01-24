@@ -1,13 +1,11 @@
-package mx.com.alura;
+package mx.com.alura.module;
 
-public class Curso implements Comparable<Curso> {
+public class Clase implements Comparable<Clase> {
 
     private String nombre;
-    private int horas;
 
-    public Curso(String nombre, int horas) {
+    public Clase(String nombre) {
         this.nombre = nombre;
-        this.horas = horas;
 
     }
 
@@ -20,14 +18,6 @@ public class Curso implements Comparable<Curso> {
         this.nombre = nombre;
     }
 
-    public int getHoras() {
-        return horas;
-    }
-
-    public void setHoras(int horas) {
-        this.horas = horas;
-    }
-
     @Override
     public String toString() {
         return this.nombre;
@@ -35,7 +25,7 @@ public class Curso implements Comparable<Curso> {
 
 
     @Override
-    public int compareTo(Curso o) {
+    public int compareTo(Clase o) {
         return this.nombre.compareTo(o.getNombre());
     }
 }
