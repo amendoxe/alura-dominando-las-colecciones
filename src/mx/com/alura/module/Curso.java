@@ -7,17 +7,17 @@ public class Curso implements Comparable<Curso> {
 
     private String nombre;
     private int horas;
-    private List<Clase> claseList = new ArrayList<>();
+    private List<Aula> aulaList = new ArrayList<>();
 
     public Curso(String nombre, int horas) {
         this.nombre = nombre;
         this.horas = horas;
     }
 
-    public Curso(String nombre, int horas, List<Clase> claseList) {
+    public Curso(String nombre, int horas, List<Aula> aulaList) {
         this.nombre = nombre;
         this.horas = horas;
-        this.claseList = claseList;
+        this.aulaList = aulaList;
     }
 
     public String getNombre() {
@@ -36,16 +36,16 @@ public class Curso implements Comparable<Curso> {
         this.horas = horas;
     }
 
-    public List<Clase> getClaseList() {
-        return claseList;
+    public List<Aula> getClaseList() {
+        return aulaList;
     }
 
-    public void setClaseList(List<Clase> claseList) {
-        this.claseList = claseList;
+    public void setClaseList(List<Aula> aulaList) {
+        this.aulaList = aulaList;
     }
 
-    public void addClase(Clase clase) {
-        this.claseList.add(clase);
+    public void addAula(Aula aula) {
+        this.aulaList.add(aula);
     }
 
     @Override

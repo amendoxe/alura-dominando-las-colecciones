@@ -1,4 +1,4 @@
-package mx.com.alura;
+package mx.com.alura.test;
 
 import java.util.ArrayList;
 
